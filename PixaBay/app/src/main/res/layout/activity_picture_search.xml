@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PictureSearch"
+    android:padding="15sp"
+    android:background="@drawable/general_bg">
+
+    <TextView
+        android:id="@+id/AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/Slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:textColor="@color/white"
+        android:layout_below="@id/AppName"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/et_enterPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Slogan"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:textColorHint="@color/white"
+        android:hint="@string/type"
+        android:padding="10dp"
+        android:textColor="@color/purple_200" />
+
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_enterPet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/view"/>
+
+</RelativeLayout>

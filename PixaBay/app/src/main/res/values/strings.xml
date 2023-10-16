@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PixaBay</string>
+    <string name="slogan">...free images plug</string>
+    <string name="type">Type here</string>
+    <string name="view">View Images</string>
+    <string name="tagText">Tags Text</string>
+    <string name="likeText">Likes text</string>
+    <string name="userText">User text</string>
+    <string name="widthText">Width text</string>
+    <string name="heightText">Height text</string>
+    <string name="commentText">Comment text</string>
+    <string name="viewsText">Views text</string>
+    <string name="by">Photo By: </string>
+</resources>

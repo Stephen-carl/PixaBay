@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PictureDetails"
+    android:padding="15dp"
+    android:background="@drawable/general_bg">
+
+    <ImageView
+        android:id="@+id/detailsImage"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/detailsTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsImage"
+        android:layout_marginTop="10dp"
+        android:text="@string/tagText"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/detailsLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="@string/likeText"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/detailsImage"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsTag"
+        android:layout_marginTop="10dp"
+        android:text="Photo By:"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/detailsUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsTag"
+        android:layout_toEndOf="@id/by"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:text="@string/userText"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/detailsWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsUser"
+        android:layout_marginTop="10dp"
+        android:text="@string/widthText"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/detailsHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="@string/heightText"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/detailsUser"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/detailsComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="@string/commentText"
+        android:layout_below="@id/detailsWidth"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/detailsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="@string/viewsText"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/detailsHeight"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
